@@ -121,11 +121,11 @@ flex-shrink: 0;
 /* First-section-Maria */
 
 .welcome-section {
-    max-width: 1440px;
+    max-width: 1272px;
     width: 100%;
     margin: 0 auto;
 
-    height: 100vh;
+    height: 559px;
     width: 100%;
 
     background-image: url(./assets/pexels-andrea-piacquadio-994234\ 1.png);
@@ -133,6 +133,8 @@ flex-shrink: 0;
     background-size: cover;
     border-radius: 20px;
 
+    margin-left: 84px;
+    margin-right: 84px;
     margin-bottom: 72px;
     
     display: flex;
