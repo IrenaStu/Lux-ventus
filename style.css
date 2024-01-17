@@ -117,3 +117,95 @@ flex-shrink: 0;
     left: 88px;
     right: 939px; 
 }
+
+/* First-section-Maria */
+
+.welcome-section {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    height: 100vh;
+    width: 100%;
+
+    background-image: url(./assets/pexels-andrea-piacquadio-994234\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+    margin-bottom: 72px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.welcome-section h1 {
+    
+    
+    font-family: 'Poppins';
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #ffff;
+
+    margin-left: 57px;
+    margin-top: 0px;
+    margin-bottom: 19px;
+    margin-right: 588px;
+}
+
+.welcome-section span {
+
+    background: linear-gradient(to right, #4CE0D7, #8BA9F4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.welcome-section h3 {
+    
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.23em;
+    text-align: left;
+
+    color: #ffff;
+
+    margin-left: 57px;
+    margin-top: 218px;
+    margin-bottom: 19px;
+    margin-right: 1026px;
+}
+
+.welcome-section p {
+    
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #ffff;
+
+    margin-left: 53px;
+    margin-top: 0px;
+    margin-bottom: 141px;
+    margin-right: 725px;
+
+    width: 494px;
+    height: 72px;
+
+}
