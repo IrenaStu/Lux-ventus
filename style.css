@@ -211,3 +211,146 @@ flex-shrink: 0;
     height: 72px;
 
 }
+
+/* Trending section after this (Alex's part) */
+.sectionheader {
+    padding: 0;
+    margin: 97px 126px 0;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.trendinghorizontal{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.trendingvertical{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;   
+    background: white; 
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05); 
+    border-radius: 20px;
+    max-height: 100%;
+}
+
+#hcard1 {
+    max-height: 670px;
+    max-width: 579px;
+    margin: 55px 30px 44px 118px;
+}
+
+#hcard2 {
+    max-height: 670px;
+    max-width: 565px;
+    margin: 55px 118px 44px 30px;
+}
+
+.card img {
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 279px;
+}
+
+.womanicon {
+    margin-left: 62px;
+    margin-right: 18.2px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+#section3img {
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 361px;
+}
+
+.imgtag { 
+    display: flex;
+    background: #262626;
+    border-radius: 40px;
+    position: absolute;
+    top: 20px;
+    left: 34.14px;
+    width: 175.438px;
+    height: 36.491px;
+    justify-content: center;
+}
+
+.imgtag p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 9.3px 0;
+}
+
+.womanicon {
+    margin-left: 62px;
+    margin-right: 18.2px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.pretitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#namedate {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 150px;
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardtext {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardtitle {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.readmorebtn {
+    display: flex;
+    align-items: center;
+    color: #4CE0D7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.88px;
+    text-decoration: none;
+}
+
