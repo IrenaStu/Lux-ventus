@@ -76,6 +76,7 @@ background: #4CE0D7;
     justify-content: space-between;
     align-items: center;
     padding: 87px 89px 127px 84px;
+    
 
 }
 .cont-cont{
@@ -210,8 +211,97 @@ flex-shrink: 0;
 
     width: 494px;
     height: 72px;
-
 }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -369,7 +459,27 @@ letter-spacing: 2.88px;
     left: 113px;
     right: 876px;
     top: 165px;
+}
+
+.button:hover {
+    background-color:#c1e0e6;
+    border: solid;
+
 
 }
+
+ .buttons:hover{
+    background-color:#5e5757;
+}
+ .element-read:hover{
+    color: #BCBCBC;
+ }
  
+.navi a:hover {
+ color:#BCBCBC ;
+}
+.navi img:hover{
+    transform: scale(1,2);
+}
+
 
