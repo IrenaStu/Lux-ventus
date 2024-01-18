@@ -213,97 +213,50 @@ flex-shrink: 0;
     height: 72px;
 }
 
+
+.top {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 107px 0 36px 84px;
+    width: 282px;
+   height: 36px;
+
+}
+
+.Topics-cards{
+
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+ justify-content:space-around;
+
+}
+
+.Topics-card {
+    width: 204px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    padding: 20px 10px;
+    border: 5px solid #c9e5eada;
+    border-radius: 20px;
+}
+
+.Topics-card a{
+    padding: 9px 35px;
+    background-color: #4CE0D7;
+    color: rgb(10, 9, 9);
+    border-radius: 15px;
+    font-size: 17px;
+}
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* section fashion irena */
 .conteiner-fashion{
@@ -482,4 +435,238 @@ letter-spacing: 2.88px;
     transform: scale(1,2);
 }
 
+.Topics-cards{
+    display: flex;
+    flex-direction: row;
+    max-width: 1272px;
+    max-height: 292px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+.Topics-card img{
+  max-width: 103px;
+  max-height: 103px;
+  width: 100%;
+  height:100% ;
+}
+.button1:hover{
+    background-color:#c1e0e6;
+    border: solid;
+}
 
+.imgtag:hover{
+    background-color:#c1e0e6;
+    border: solid;
+}
+/* Trending section after this (Alex's part) */
+.sectionheader {
+    padding: 0;
+    margin: 97px 126px 0;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.trendinghorizontal{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.trendingvertical{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Fixes the vertical section not looking proper problem */
+.container {
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.vertcontent {
+    max-width: 656px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;   
+    background: white; 
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05); 
+    border-radius: 20px;
+    height: 100%;
+}
+
+.vertcard {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    max-width: 1204px;
+    width: 100%;
+    max-height: 368px;
+    height: 100%;
+    background: white; 
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05); 
+    border-radius: 20px;
+}
+
+#hcard1 {
+    max-height: 670px;
+    max-width: 579px;
+    margin: 55px 30px auto 118px;
+}
+
+#hcard2 {
+    max-height: 670px;
+    max-width: 565px;
+    margin: 55px 118px 40px 30px;
+}
+
+#vcard1 {
+    margin-top: 88px;
+}
+
+#vcard2 {
+    margin-top: 48px;
+}
+
+#vcard3 {
+    margin-top: 58px;
+    margin-bottom: 69px;
+}
+
+.cardimg {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cardimgvert {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 548px;
+    max-height: 368px;
+}
+
+.imgtag { 
+    display: flex;
+    background: #262626;
+    border-radius: 40px;
+    position: absolute;
+    top: 20px;
+    left: 34.14px;
+    width: 175.438px;
+    height: 36.491px;
+    justify-content: center;
+}
+
+.imgtag p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 9.3px 0;
+}
+
+.pretitlehor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pretitlevert {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.womaniconhor {
+    margin: 30px 25px 35px 25px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.womaniconver {
+    margin: 18px 14px 12px 40px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.namedate {
+    display: flex;
+    align-content: center;
+    gap: 150px;
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.horcardtext {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 200px 20px 35px;
+}
+
+.vertcardtext {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 12px 100px 20px 40px;
+}
+
+.cardtitle {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.vertcardtitle {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 100px 30px auto;
+}
+
+.readmorebtn {
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.88px;
+    text-decoration: none;
+    margin: auto auto 45px 22px;
+}
+
+.readmorebtn a {
+    display: flex;
+    align-items: center;
+    color: #4CE0D7;
+}
+
+.readmorebtn a:hover {
+    text-decoration: underline;
+}
