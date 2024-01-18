@@ -3,18 +3,19 @@
     margin: 0;
     text-decoration: none;
 }
-body{
+.body{
     font-family: Poppins, sans-serif;
     max-width: 1440px;
     max-height: 4510px;
     width: 100%;
     height: 100%;
     background-color: #F9F9F9;
+    margin: 0 auto;
 }
 .header{
     max-width: 1272px; 
     padding: 0;  
-    margin: 37px 84px;
+    margin:37px 87px;
 }
 .container-header{
     display: flex;
@@ -75,6 +76,7 @@ background: #4CE0D7;
     justify-content: space-between;
     align-items: center;
     padding: 87px 89px 127px 84px;
+    
 
 }
 .cont-cont{
@@ -209,5 +211,275 @@ flex-shrink: 0;
 
     width: 494px;
     height: 72px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section fashion irena */
+.conteiner-fashion{
+    max-width: 1204px;
+    max-height: 698px;
+    height: 100% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+}
+.vecctor{
+    max-width: 1267px;
+    width:100%;
+    margin: 0 auto;
+    margin-bottom: 53px;
 
 }
+
+
+.small-conteinerfashion {
+    background-image: url(assets/pexels-sabrina-kennelly-1857000\ 1.png);
+    max-width: 1204px;
+    width: 100%;
+    height: 360px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.small-containerfashion a, .buttons{
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 71px;
+    height: 18px;
+    flex-shrink: 0;
+
+}
+ .buttons{
+    padding: 11px 81px 9px 81px;
+    transform: rotate(-0.604deg);
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #262626;  
+ }
+  .button-element{
+    top: 23px;
+    left: 57px;
+    right: 922px;
+    bottom: 637px;
+  }
+
+  .small-text{
+    display: flex;
+    padding: 16px 62px;
+    gap: 49px;
+    align-items: center;
+
+  }
+  .small-text img{
+    width: 66px;
+    height: 51px;
+    border-radius: 40px;  
+  }
+  .small-text h5{
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+.small-cont-text{
+    display: flex;
+    flex-direction: column;
+}
+ .text-element {
+    color: #F25E5E;
+     font-family: Poppins;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: 3.36px;
+     padding: ;
+         }
+
+ .text-element{
+    top: 400px;
+    left: 924px;
+    right: 64px;
+    bottom: 275px;
+ }
+
+ .column-conteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin: 0 auto;
+    max-width: 1204px;
+    width:100%;
+    height: 234px;
+    position: relative;
+
+ }
+ .fashionweek{
+   max-width: 1044px;
+    height: 36px;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 0 96px 0 64px;
+ }
+
+ 
+ .fashionweek-content{
+    text-align: left;
+    color: #262626;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 1033px;
+    width: 100%;
+    height: 73px;
+    padding: 0 107px 0 64px ;
+ }
+.arrow{
+    width: 51px;
+    height: 40px;
+    padding: 0 0 0 51px;
+}
+
+.absolut-element{
+    width: 215px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.element-read{
+    color: #4CE0D7;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.88px;
+    left: 113px;
+    right: 876px;
+    top: 165px;
+}
+
+.button:hover {
+    background-color:#c1e0e6;
+    border: solid;
+
+
+}
+
+ .buttons:hover{
+    background-color:#5e5757;
+}
+ .element-read:hover{
+    color: #BCBCBC;
+ }
+ 
+.navi a:hover {
+ color:#BCBCBC ;
+}
+.navi img:hover{
+    transform: scale(1,2);
+}
+
+
