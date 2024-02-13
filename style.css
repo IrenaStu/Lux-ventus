@@ -48,10 +48,12 @@ background: #4CE0D7;
     height: 47px;
     flex: shrink 0; 
 }
-.navi{
+.navi{ 
+    list-style: none;
     display: flex;
     align-items: center;
     gap: 50px;
+  
 }
 .footer-conteiner{
     max-width: 1440px;
@@ -669,4 +671,22 @@ letter-spacing: 2.88px;
 
 .readmorebtn a:hover {
     text-decoration: underline;
+}
+
+    
+.navi li {
+    position: relative;
+}
+.subitems  {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #4CE0D7; 
+    padding: 10px;
+
+}
+
+.navi .contact-button:hover .subitems {
+    display: block;
 }

@@ -6,30 +6,65 @@
     <title>LuxVentus</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">  
-    
-    <?php require "code.php"; ?>
+     <?php require "code.php"; ?>
 
 </head>
 <body>
     <div class="body">
     <!-- Header Irena -->
     <header>
-        <div class="header">
-            <div class="container-header">
-            <img src="assets\Component 1.png" alt="logo">
+    <div class="header">
+        <div class="container-header">
+            <img src="assets/Component 1.png" alt="logo">
             <nav>
-                <div class="navi">
-                    <a href="index.html#third-section ">Fashion</a>
-                    <a href="#">Lifestyle</a>
-                    <a href="#">Spiritual</a>
-                    <a href="#">Mental Health</a>
-                    <a href="mailto:irena.sturua@gmail.com" class="button">Contact Us</a>
-                    <img src="./assets/Component 2.png" alt="search icon">   
-                </div>
-            </nav>
-            </div>
+            <ul class="navi"> 
+      <?php
+         foreach($navItems as $item){
+            echo '<li class="contact-button">
+            <a href="' . $item['link'] . '">' . $item['name'] . '</a>
+            <ul class="subitems">' ;
+            foreach ( $item ['children'] as $subitem ) {
+                echo '<li> 
+                <a href="' . $subitem['link'] . '">' . $subitem['name'] . '</a>
+                </li>';
+
+            }
+       echo '</ul>
+       </li>';
+
+         }
+           
+
+            echo      '<img src="' . $navItems[5]['link'] . '" alt="search icon">';      
+
+?>
+</ul>
+</nav>
+
+
+            
+  
+        <!-- <li><a href="#">Fashion</a></li>
+        <li><a href="#">Lifestyle</a></li>
+        <li><a href="#">Spiritual</a></li>
+        <li><a href="#">Mental Health</a></li>
+        <li class="contact-button">
+            <a href="#" class="button">Contact Us</a>
+            <ul class="subitems">
+                <li><a href="mailto:irena.sturua@gmail.com">Email</a></li>
+                <li><a href="tel:+995568599999">Phone</a></li>
+            </ul>
+        </li>
+    
+    <img src="./assets/Component 2.png" alt="search icon"> -->
+
+    
+        
         </div>
-    </header>
+    </div>
+</header>
+
+
 
     <!-- first section Mariam -->
     
@@ -51,51 +86,19 @@
     <section sectiontwo>
 
         <div class="Topics-cards">
-    
-    
-            <div class="Topics-card">
-                <img src="./assets/lingerie-underwear.png" alt="">
-                <h1>Lingerie</h1>
+            <?php
+     foreach ($topics as $topic)
+     {
+        echo ' <div class="Topics-card">
+        <img src=" '. $topic['image'] . '" alt="">
+        <h1>' . $topic['title'] . '</h1>
+   
+        <a href="#" class="button1">' . $topic['button'] . '</a>
+
+    </div>' ;
+      }
+    ?>
            
-                <a href="#" class="button1">View More</a>
-        
-            </div>
-
-            <div class="Topics-card">
-                <img src="./assets/dress.png" alt="">
-                <h1>Spring</h1>
-       
-                <a href="#" class="button1">View More</a>
-            </div>
-
-            <div class="Topics-card">
-                <img src="./assets/chakra.png" alt="">
-                <h1>Yoga</h1>
-              
-                <a href="#" class="button1">View More</a>
-            </div>
-    
-            <div class="Topics-card">
-                <img src="./assets/lipstick.png" alt="">
-                <h1>Glow</h1>
-            
-                <a href="#" class="button1">View More</a>
-            </div>
-    
-            <div class="Topics-card">
-                <img src="./assets/dress-wedding-dress.png" alt="">
-                <h1>Ensembles</h1>
-         
-                <a href="#" class="button1">View More</a>
-            </div>
-
-            <div class="Topics-card">
-                <img src="./assets/mask-theater.png" alt="">
-                <h1>Skin Care</h1>
-    
-                <a href="#" class="button1">View More</a>
-            </div>
-    
         </div>
     </section>
 
