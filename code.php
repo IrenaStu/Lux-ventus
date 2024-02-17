@@ -85,23 +85,12 @@ $navItems = [
 ];
 
 
-
-
-
-
-
-
-// $navItems = [
-//      'FAshionn',
-//      'Lifestyle',
-//      'Spiritual',
-//      'Mental Health',
-//      'Contact Us' => [
-//        'email' => 'mailto:irena.sturua@gmail.com',
-//          'tel' => 'fon: +995568599999',
-//    ],
-//       './assets/Component 2.png',
-// ];
-
+function topicSection($topic_image, $topic_title, $topic_button) {
+  echo '<div class="Topics-card">
+      <img src="' . $topic_image . '" alt="">
+      <h1>' . $topic_title . '</h1>
+      <a href="#" class="button1">' . $topic_button . '</a> 
+  </div>';
+}
 
 ?>

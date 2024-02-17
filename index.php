@@ -89,13 +89,9 @@
             <?php
      foreach ($topics as $topic)
      {
-        echo ' <div class="Topics-card">
-        <img src=" '. $topic['image'] . '" alt="">
-        <h1>' . $topic['title'] . '</h1>
-   
-        <a href="#" class="button1">' . $topic['button'] . '</a>
+        echo  topicSection ($topic['image'],$topic['title'],$topic['button'] )
 
-    </div>' ;
+     ;
       }
     ?>
            

@@ -680,13 +680,10 @@ letter-spacing: 2.88px;
 .subitems  {
     display: none;
     position: absolute;
-    top: 100%;
-    left: 0;
-    border: 1px solid #4CE0D7; 
-    padding: 10px;
 
 }
 
-.navi .contact-button:hover .subitems {
+ .contact-button:hover .subitems {
     display: block;
+    list-style: none ;
 }
