@@ -6,7 +6,9 @@
     <title>LuxVentus</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">  
-     <?php require "code.php"; ?>
+     <?php require "code.php";
+           require "navigation.php";
+      ?>
 
 </head>
 <body>
@@ -19,23 +21,27 @@
             <nav>
             <ul class="navi"> 
       <?php
-         foreach($navItems as $item){
-            echo '<li class="contact-button">
-            <a href="' . $item['link'] . '">' . $item['name'] . '</a>
-            <ul class="subitems">' ;
-            foreach ( $item ['children'] as $subitem ) {
-                echo '<li> 
-                <a href="' . $subitem['link'] . '">' . $subitem['name'] . '</a>
-                </li>';
 
-            }
-       echo '</ul>
-       </li>';
 
-         }
+ echo navigationDisplay()
+
+    //      foreach($navItems as $item){
+    //         echo '<li class="contact-button">
+    //         <a href="' . $item['link'] . '">' . $item['name'] . '</a>
+    //         <ul class="subitems">' ;
+    //         foreach ( $item ['children'] as $subitem ) {
+    //             echo '<li> 
+    //             <a href="' . $subitem['link'] . '">' . $subitem['name'] . '</a>
+    //             </li>';
+
+    //         }
+    //    echo '</ul>
+    //    </li>';
+
+    //      }
            
 
-            echo      '<img src="' . $navItems[5]['link'] . '" alt="search icon">';      
+               
 
 ?>
 </ul>
@@ -87,12 +93,9 @@
 
         <div class="Topics-cards">
             <?php
-     foreach ($topics as $topic)
-     {
-        echo  topicSection ($topic['image'],$topic['title'],$topic['button'] )
-
-     ;
-      }
+    
+        echo  topicSection ();
+      
     ?>
            
         </div>
@@ -144,7 +147,12 @@
         </div>
 
         <div class="trendinghorizontal">
-            <div class="card" id="hcard1">
+
+        <?php 
+
+        echo trendgCardsDisplay();
+        ?>
+            <!-- <div class="card" id="hcard1">
                 <img class="cardimg" src="assets\pexels-david-garrison-2128817 1.png" alt="">
                 <div class="imgtag">
                     <p>LIFESTYLE</p>
@@ -185,7 +193,7 @@
                     <a href="#"><img src="assets\arrow-small-right.png" alt="">READ MORE</a>
                 </div>
                 
-            </div>
+            </div> -->
         </div>
    
 
